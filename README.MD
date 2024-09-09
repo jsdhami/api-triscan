@@ -1,0 +1,4 @@
+- requirments create
+```bash
+pipreqs
+```
