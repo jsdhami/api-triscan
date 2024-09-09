@@ -1,9 +1,11 @@
 from django.shortcuts import render
-# Create your views here.
 from django.http import HttpResponse
 
+
 def index(request):
-    return HttpResponse("Hello, world. You're at the polls index.")
+    # redirect to https://triscan.jsdhami.com.np for now
+    return HttpResponse('<script>window.location.href="https://triscan.jsdhami.com.np"</script>')
+    # return HttpResponse("Hello, world. You're at the plagiarism checker index.")   
 
 
 from rest_framework.views import APIView
@@ -22,3 +24,5 @@ class ReportView(APIView):
         # Retrieve the report by id
         report = {'id': id, 'similarity': 0.95}  # Dummy response
         return Response(report, status=status.HTTP_200_OK)
+
+
