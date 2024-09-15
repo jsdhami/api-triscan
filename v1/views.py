@@ -1,16 +1,14 @@
 from django.shortcuts import render
 from django.http import HttpResponse
-
-
-def index(request):
-    # redirect to https://triscan.jsdhami.com.np for now
-    return HttpResponse('<script>window.location.href="https://triscan.jsdhami.com.np"</script>')
-    # return HttpResponse("Hello, world. You're at the plagiarism checker index.")   
-
-
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import status
+
+def index(request):
+    # redirect to https://triscan.jsdhami.com.np for now
+    # return HttpResponse('<script>window.location.href="https://triscan.jsdhami.com.np"</script>')
+    return HttpResponse("Hello, This is the Triscan API. Please visit https://triscan.jsdhami.com.np for more information.")   
+
 
 class CheckPlagiarismView(APIView):
     def post(self, request):
