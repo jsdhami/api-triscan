@@ -1,9 +1,9 @@
 # API for TriScan | A Plagiarism Checker Software
 An open-source plagiarism detection software developed by the Tri-Chandra Research Group.
-**Key Features:**
--> Free and open to the public.
--> Designed for research and academic purposes.
--> Detects plagiarism in research papers, theses, and reports.
+### **Key Features:**
+- Free and open to the public.
+- Designed for research and academic purposes.
+- Detects plagiarism in research papers, theses, and reports.
 
 
 
