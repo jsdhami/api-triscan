@@ -1,6 +1,9 @@
 # API for TriScan | A Plagiarism Checker Software
-
-
+An open-source plagiarism detection software developed by the Tri-Chandra Research Group.
+**Key Features:**
+-> Free and open to the public.
+-> Designed for research and academic purposes.
+-> Detects plagiarism in research papers, theses, and reports.
 
 
 
@@ -11,10 +14,13 @@ At firs fork this repo in your Github ID. after then clone this repository in yo
 ```bash
 git clone https://github.com/jsdhami/api-triscan.git
 ```
-create Virtual environment for running this project
+create virtual environment
 ```bash
 pip install virtualenv
 python -m venv env
+```
+Activate virtual environment
+```bash
 env/Scripts/activate
 ```
 ```bash 
@@ -28,6 +34,8 @@ Run
 ```bash
 python manage.py runserver
 ```
+
+
 
 
 <!--
